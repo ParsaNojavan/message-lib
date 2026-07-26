@@ -1,5 +1,5 @@
 export default interface UserLoginRegisterDto {
-    phoneNumber: string
+    email: string
     verificationCode?: string
     password?: string
     lang: string | undefined
