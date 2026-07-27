@@ -4,15 +4,15 @@ export interface JwtPayload {
   sub: string;
   username?: string;
   email?: string;
-  roles?: string[];
+  claims?: string[];
   iat?: number;
-  exp?: number; 
+  exp?: number;
 }
 
 
 export interface AuthenticatedSocket extends Socket {
   data: {
     user: JwtPayload;
-    at?: number; 
+    at?: number;
   };
 }
