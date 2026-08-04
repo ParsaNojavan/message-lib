@@ -1,4 +1,4 @@
-export default interface Notification {
+export default interface NotificationDto {
     senderId: string, 
     senderName?: string,
     recipientIds: string[],
