@@ -1,4 +1,4 @@
-export default interface MessageDto {
+export default interface ReactionDto {
     messageId: string,
     emoji: string;
 }
