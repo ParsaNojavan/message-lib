@@ -38,8 +38,6 @@ export class WsApiKeyGuard implements CanActivate {
       throw new WsException('Invalid Origin format');
     }
 
-    client['widgetClient'] = decoded;
-
     return true;
   }
 }

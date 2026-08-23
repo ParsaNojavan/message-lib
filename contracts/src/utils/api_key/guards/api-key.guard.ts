@@ -34,8 +34,6 @@ export class ApiKeyGuard implements CanActivate {
       throw new UnauthorizedException('Invalid Origin format');
     }
 
-    request['widgetClient'] = decoded;
-
     return true;
   }
 }
