@@ -1,0 +1,6 @@
+export enum MessageType {
+    DEFAULT = 'DEFAULT',
+    CALL_MISSED = 'CALL_MISSED',
+    CALL_ENDED = 'CALL_ENDED',
+    CALL_DECLINED = 'CALL_DECLINED',
+}
